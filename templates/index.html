@@ -1,0 +1,33 @@
+{% extends 'base.html' %} {% block head %}
+
+<title>HomePage</title>
+
+{% endblock %} {% block body %}
+<br>
+<h1>My HomePage</h1>
+<br>
+<main role="main">
+  <div class="jumbotron">
+    <div class="col-sm-8 mx-auto">
+      <h1>Welcome</h1>
+      <p>
+        Hey Everyone, Welcome to Fortunates Blog, Herewe will be talking about anything programming 
+        ,computer science and machine learning....kindly visit our website for more
+        <a href="https://google.com">Fixed top</a> examples.
+      </p>
+      <p>
+        You can also read our post here on this blog with the below Link
+      </p>
+      <p>
+        <a
+          class="btn btn-primary"
+          href="/posts"
+          role="button"
+          >Blogs Page &raquo;</a
+        >
+      </p>
+    </div>
+  </div>
+</main>
+
+{% endblock %}
